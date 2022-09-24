@@ -59,9 +59,9 @@
    }
    ```
    
-    - `inventory/delete/<id_of_the_box_to_be_deleted>`: deletes a box if the user performing the action is validated
+   - `inventory/delete/<id_of_the_box_to_be_deleted>`: deletes a box if the user performing the action is validated
     
-    - `inventory/view`: view list of boxes
+   - `inventory/view`: view list of boxes
     filters can be applied like:
      - `http://127.0.0.1:8000/inventory/view?after=2022-09-24%2018:17:30.514448`: returns list of boxes created after the given timestamp
      - `http://127.0.0.1:8000/inventory/view?before=09-24%2018:17:30.514448`: returns list of boxes created beforeiven timestamp
@@ -69,7 +69,7 @@
      
      Other possible filters are: volume_less, area_more, area_less, breadth_more, breadth_less, height_more, height_less, length_more, length_less, creator(give username
  
-  - `users/inventory`: returns all the boxes created by the current user, all the filters apply to this route as well
+   - `users/inventory`: returns all the boxes created by the current user, all the filters apply to this route as well
   
   Authentication token from the `login` route has to be put in headers as: `Authentication: Token <token_value>`
   
