@@ -1,5 +1,5 @@
 # boxInventory
-##Getting started:
+## Getting started:
  - create and activate a python virtual environment (python 3.5 or above)
  - run `git clone https://github.com/AbhigyaShridhar/boxInventory`
  - `cd cuboid`
@@ -18,7 +18,7 @@
  
  Now the project can be accessed on `http://127.0.0.1:8000/`
  
-##API
+## API
 
  - `users/register`: registers a new user
  ```
